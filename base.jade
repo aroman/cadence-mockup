@@ -1,0 +1,16 @@
+html
+  head
+    block title
+      title cadence
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700', rel='stylesheet', type='text/css')
+    link(href="http://yui.yahooapis.com/pure/0.2.1/grids-min.css", rel="stylesheet")
+    link(href="style/base.css", rel="stylesheet")
+  body
+    #header
+      include header
+    #content
+      block content
+    #footer
+      include footer
+    script(src="js/jquery.js")
+    script(src="js/logic.js")
